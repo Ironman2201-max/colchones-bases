@@ -1,0 +1,42 @@
+﻿# ===== Node.js =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Angular =====
+.angular/
+dist/
+tmp/
+out-tsc/
+
+# ===== Laravel =====
+vendor/
+.env
+.env.backup
+.env.production
+*.log
+storage/*.log
+storage/framework/
+storage/logs/
+bootstrap/cache/
+
+# ===== IDE y OS =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ===== Backups y comprimidos =====
+*.rar
+*.zip
+*.7z
+*.tar.gz
+*.bak
+
+# ===== Otros =====
+.ftpconfig
+.ftpasswd
+composer.phar
